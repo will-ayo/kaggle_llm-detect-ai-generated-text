@@ -1,0 +1,8 @@
+DATA_PATHS:
+  TRAIN_DATA: "/kaggle/input/daigt-v2-train-dataset/train_v2_drcat_02.csv"
+  TEST_DATA: "/kaggle/input/llm-detect-ai-generated-text/test_essays.csv"
+  SUBMISSION_DATA: "/kaggle/input/llm-detect-ai-generated-text/sample_submission.csv"
+
+PARAMS:
+  SEPARATOR: ","
+  RANDOM_SEED: 42
