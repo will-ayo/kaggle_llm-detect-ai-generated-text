@@ -25,8 +25,6 @@ sep = config["PARAMS"]["SEPARATOR"]
 random_seed = config["PARAMS"]["RANDOM_SEED"]
 
 
-
-
 def main():
     """
     Orchestrates the data reading, tokenization, TF-IDF vectorization,

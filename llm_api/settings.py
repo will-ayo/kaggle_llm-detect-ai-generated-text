@@ -9,13 +9,10 @@ logging.basicConfig(
 LOGGER = logging.getLogger(__name__)
 LOGGER.setLevel(logging.INFO)
 
-APP_NAME = "llm-api"
-
 with open("config.yaml", "r") as f:
     config = yaml.safe_load(f)
 
-
 fastapi_options = {
-    "title": APP_NAME,
+    "title": config["API"]["NAME"],
     "version": "0.1"
 }

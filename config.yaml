@@ -6,3 +6,6 @@ DATA_PATHS:
 PARAMS:
   SEPARATOR: ","
   RANDOM_SEED: 42
+
+API:
+  NAME: "llm-api"
