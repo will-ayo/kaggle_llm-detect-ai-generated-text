@@ -9,3 +9,8 @@ PARAMS:
 
 API:
   NAME: "llm-api"
+
+ML_FLOW:
+  IS_ACTIVE: true
+  URI: "http://localhost:5000"
+  NAME: "kaggle_llm-detect-ai-generated-text"
